@@ -1,0 +1,244 @@
+.main {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-header {
+    display: flex;
+    justify-content: space-between;
+}
+address span {
+    margin: 0 16px 0 6px;
+}
+address img:last-child {
+    position: relative;
+    top: 10px;
+}
+.custom {
+    display: none;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+    color: #0263AC;
+    margin: 4rem 0 0 0;
+}
+header h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #0263AC;
+    margin: 4rem 0 0 0;
+}
+header h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #535353;
+    flex: none;
+    margin: 1rem 0 2.5rem 0;
+}
+.line{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.line-blue, .line-gray {
+    width: 300px;
+    height: 4px;
+    border-radius: 4px;
+    margin: 0 2px;
+    align-self: center;
+}
+.line-blue {
+    background: #0263AC;
+}
+.line-gray {
+    background: #D9D9D9;
+}
+.cricle-item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    align-self: center;
+}
+.slide-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+.slide {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto 2rem auto;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+h3[class*="slider-value-"] {
+    position: absolute;
+    font-weight: 400;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.name h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #535353;
+}
+.slider-item{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 32px;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.slider-item::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 48px;
+    height: 48px;
+    background-image: url(/tab2/asset/img/slider.png);
+    cursor: pointer;
+}
+.slider-item::-webkit-slider-thumb:hover {
+    opacity: 1;
+}
+.slider-item:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    margin: 2rem 0;
+}
+.footer-left {
+    display: flex;
+}
+.footer-left img{
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+}
+.footer-left h4 {
+    margin: 0 0 0 14px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0263AC;
+}
+.footer-left h5 {
+    margin: 0 0 0 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #535353;
+}
+.btn {
+    width: 219px;
+    height: 52px;
+    background: #0263AC;
+    border-radius: 8px; 
+    
+}
+.btn:hover{
+    scale: 1.05;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.btn span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right: 8%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+    body {
+        width: 986px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    body {
+        width: 684px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slide {
+        width: 80%;
+    }
+    .line {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        width: 100%;
+    }
+    address {
+        display: none;
+    }
+    header h1, header h2 {
+        display: none;
+    }
+    .custom {
+        display: block;
+    }
+    .line {
+        display: none;
+    }
+    .slider-item{
+        height: 20px; 
+    }
+    .slider-item::-webkit-slider-thumb {
+        scale: 0.8;
+    }
+    h3[class*="slider-value-"] {
+        display: none;
+    }
+    .name h3 {
+    font-weight: 400;
+    font-size: 16px;
+    }
+
+    footer {
+        justify-content: center;
+    }
+    .footer-left {
+        display: none;
+    }
+    .btn {
+        width: 80px;
+        height: 40px;
+        border-radius: 16px;
+    }
+    .btn span {
+        font-weight: 300;
+        font-size: 1rem; 
+    }
+    .btn img {
+        display: none;
+    }
+}

@@ -1,0 +1,563 @@
+.main {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-header {
+    display: flex;
+    justify-content: space-between;
+}
+address span {
+    margin: 0 16px 0 6px;
+}
+address img:last-child {
+    position: relative;
+    top: 10px;
+}
+.custom {
+    display: none;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #0263AC;
+    margin: 2rem 0 0 0;
+}
+header h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #0263AC;
+    margin: 4rem 0 0 0;
+}
+header h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #535353;
+    flex: none;
+    margin: 1rem 0 2.5rem 0;
+}
+.line{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.line-blue, .line-gray {
+    width: 300px;
+    height: 4px;
+    border-radius: 4px;
+    margin: 0 2px;
+    align-self: center;
+}
+.line-blue {
+    background: #0263AC;
+}
+.line-gray {
+    background: #D9D9D9;
+}
+.cricle-item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    align-self: center;
+}
+
+/* Grid-layout */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px ;
+    grid-template-rows: 222px 222px 222px;
+    grid-column-gap: 20px;
+    grid-row-gap: 74px;
+    justify-content: center;
+}
+.grid-container-item{
+    display: grid;
+    grid-template-columns: 73px 74px 73px;
+    grid-template-rows: 74px 74px 74px;
+
+}
+.grid-container-item p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #535353;
+    text-align: center;
+}
+.grid-container-item div:hover {
+    border: 2px solid #2492EB ;
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 5px 10px 20px #888888;
+}
+.active-color {
+    border: 2px solid #2492EB ;
+    scale: 1.1;
+    box-shadow: 5px 10px 20px #888888;
+}
+
+/* Background-color */
+.blue-1 {
+    background-color: #AFD8F8;
+}
+.blue-2 {
+    background-color: #A1D1F7;
+}
+.blue-3 {
+    background-color: #86C4F5;
+}
+.blue-4 {
+    background-color: #6DB8F2;
+}
+.blue-5 {
+    background: #2492EB;
+}
+.blue-6 {
+    background: #1A70BB;
+}
+.blue-7 {
+    background: #175EA0;
+}
+.blue-8 {
+    background: #145693;
+}
+.blue-9 {
+    background: #104378;
+}
+
+.aquas-1{
+    background: #BCE5EB;
+} 
+.aquas-2{
+    background: #B0E1E8;
+}
+.aquas-3{
+    background: #99D8E1;
+}
+.aquas-4{
+    background:#86D0D9 ;
+}
+.aquas-5{
+    background:#4BB7C3 ;
+} 
+.aquas-6{
+    background:#378D9A ;
+} 
+.aquas-7{
+    background:#2F7785 ;
+}
+.aquas-8{
+    background: #296B79;
+} 
+.aquas-9{
+    background: #215563;
+}
+
+.green-1 {
+    background: #D9EBC1;;
+}
+
+.green-2 {
+    background: #D3E7B6;
+}
+
+.green-3 {
+    background: #C6E09F;
+}
+
+.green-4 {
+    background: #BADA85;
+}
+
+.green-5 {
+    background: #98C739;
+}
+
+.green-6 {
+    background: #74992F;
+}
+
+.green-7 {
+    background: #608128;
+}
+
+.green-8 {
+    background: #587525;
+}
+
+.green-9 {
+    background: #435B1D;
+}
+
+.purples-1{
+    background:#C9CFE5 ;
+}
+.purples-2{
+    background: #C0C7E1;
+}
+.purples-3{
+    background:#C0C7E1 ;
+}
+.purples-4{
+    background: #9DA6CF;
+}
+.purples-5{
+    background: #6D78B0;
+} 
+.purples-6{
+    background:#535B8C ;
+}
+.purples-7{
+    background: #464D79;
+}
+.purples-8{
+    background:#3E466D ;
+}
+.purples-9{
+    background: #31375B;
+
+}
+
+.pinks-1 {
+    background: #F2CBE0;
+}
+.pinks-2 {
+    background: #F0C2DC;
+}
+.pinks-3 {
+    background:#EDB0D1 ;
+}
+.pinks-4 {
+    background: #EAA0C5;
+}
+.pinks-5 {
+    background:#E16CA0 ;
+}
+.pinks-6 {
+    background:#AA537E ;
+}
+.pinks-7 {
+    background:#8E466C ;
+}
+.pinks-8 {
+    background:#804065 ;
+}
+.pinks-9{
+    background: #643353;
+}
+
+.red-1{
+    background: #ECBDC3;
+} 
+.red-2{
+    background: #E9B2B8;
+} 
+.red-3{
+    background: #E29CA4;
+} 
+.red-4{
+    background: #DD868C;
+} 
+.red-5{
+    background: #CC4645;
+} 
+.red-6{
+    background: #9B3536;
+} 
+.red-7{
+    background: #812C2F;
+} 
+.red-8{
+    background: #742A2B ;
+} 
+.red-9{
+    background: #5B2024;
+}
+
+.oranges-1{
+    background: #F9D1C9;
+} 
+.oranges-2{
+    background:#FACAC0 ;
+} 
+.oranges-3{
+    background: #F8BAAD;
+} 
+.oranges-4{
+    background: #F7AA96;
+} 
+.oranges-5{
+    background: #F47E58;
+} 
+.oranges-6{
+    background: #BA6045;
+} 
+.oranges-7{
+    background: #9A523A;
+} 
+.oranges-8{
+    background:#8B4A36 ;
+} 
+.oranges-9{
+    background:#6E3A2C ;
+}
+
+.yellows-1{
+    background: #F9E9C8;
+} 
+.yellows-2{
+    background: #FBE5C0;
+} 
+.yellows-3{
+    background:#F8DEAD ;
+} 
+.yellows-4{
+    background:#F6D797 ;
+} 
+.yellows-5{
+    background: #F5C257;
+} 
+.yellows-6{
+    background:#BA9545 ;
+} 
+.yellows-7{
+    background:#9B7E3C ;
+} 
+.yellows-8{
+    background: #8B7337;
+} 
+.yellows-9{
+    background: #6C5A2C;
+}
+
+.white-1{
+    background: #FFFFFF;
+} 
+.white-2{
+    background: #F4F5F7;
+} 
+.white-3{
+    background:#E4E5E7 ;
+} 
+.white-4{
+    background:#CECFD2 ;
+} 
+.white-5{
+    background: #C1C2C7;
+} 
+.white-6{
+    background:#AEB1B7;
+} 
+.white-7{
+    background: #495057;
+} 
+.white-8{
+    background:#343A40 ;
+} 
+.white-9{
+    background:#212529 ;
+}
+
+.gray-1 {
+    background: #9296A1 ;
+}
+.gray-2 {
+    background:#828692 ;
+}
+.gray-3 {
+    background: #737783;
+}
+.gray-4 {
+    background:#60636E ;
+}
+.gray-5 {
+    background:#53575F ;
+}
+.gray-6 {
+    background: #454851;
+}
+.gray-7 {
+    background: #1B2A41;
+}
+.gray-8 {
+    background: #0C1821;
+}
+.gray-9{
+    background: #000000;
+}
+
+.color9-1{
+    background: #D5679A ;
+} 
+.color9-2{
+    background: #CC4645;
+} 
+.color9-3{
+    background: #F47E58;
+} 
+.color9-4{
+    background:#EDBC55 ;
+} 
+.color9-5{
+    background: #91BE37 ;
+} 
+.color9-6{
+    background: #49AEBA;
+} 
+.color9-7{
+    background: #E815C5;
+}
+.color9-8{
+    background: #900078;
+} 
+.color9-9{
+    background: #4A003D ;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+.footer-left {
+    display: flex;
+}
+.footer-left img{
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+}
+.footer-left h4 {
+    margin: 0 0 0 14px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0263AC;
+}
+.footer-left h5 {
+    margin: 0 0 0 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #535353;
+}
+.btn {
+    width: 219px;
+    height: 52px;
+    background: #0263AC;
+    border-radius: 8px; 
+}
+.btn:hover{
+    scale: 1.05;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.btn span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right: 8%;
+}
+
+
+
+/* Responsive */
+
+@media (min-width: 1024px) {
+    body {
+        width: 986px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    body {
+        width: 684px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: scroll;
+        scale: 0.95;
+    }
+    .main {
+        margin-bottom: 30px;
+    }
+    .slide {
+        width: 80%;
+    }
+    .line {
+        display: none;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 220px 220px ;
+        grid-template-rows: 222px 222px;
+        grid-column-gap: 100px;
+        grid-row-gap: 74px;
+        justify-content: center;
+    }
+    .grid-container-item{
+        display: grid;
+        grid-template-columns: 73px 74px 73px;
+        grid-template-rows: 74px 74px 74px;
+    }
+}
+@media (max-width:767px) {
+    body {
+        width: 100%;
+    }
+    address {
+        display: none;
+    }
+    header h1, header h2 {
+        display: none;
+    }
+    .custom {
+        display: block;
+    }
+    .line {
+        display: none;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 220px ;
+        grid-template-rows: auto;
+        grid-column-gap: auto;
+        grid-row-gap: 4px;
+        justify-content: center;
+    }
+    .grid-container-item{
+        display: grid;
+        grid-template-columns: 73px 74px 73px;
+        grid-template-rows: 74px 74px 74px;
+        text-align: center;
+    }
+    footer {
+        margin: 20px 0 30px 0;
+        justify-content: center;
+    }
+    .footer-left {
+        display: none;
+    }
+    .btn {
+        width: 120px;
+        height: 40px;
+        border-radius: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .btn span {
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .btn img {
+        display: none;
+    }
+}

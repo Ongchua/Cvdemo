@@ -1,0 +1,211 @@
+.main {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-header {
+    display: flex;
+    justify-content: space-between;
+}
+address span {
+    margin: 0 16px 0 6px;
+}
+address img:last-child {
+    position: relative;
+    top: 10px;
+}
+header h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #0263AC;
+    margin: 4rem 0 0 0;
+}
+header h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #535353;
+    flex: none;
+    margin: 1rem 0 2.5rem 0;
+}
+.line{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.line-line {
+    width: 300px;
+    height: 4px;
+    background: #D9D9D9;
+    border-radius: 4px;
+    margin: 0 2px;
+    align-self: center;
+}
+.logo-1, .logo-2, .logo-3, .logo-4, .logo-5, .logo-6, .logo-7, .logo-8, .logo-9, .logo-10{
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 12px;
+    width: 296px;
+    height: 296px;
+    margin: 0  auto;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    
+}
+.logo-item div:hover{
+    box-shadow: 5px 10px 20px #888888;
+    cursor: pointer;
+    scale: 1.05;
+}
+.logo-10 {
+    display: none;
+}
+.check {
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+    display: none;
+}
+.active {
+    display: inline-block;
+    scale: 1.05;
+}
+.logo-1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic1.png);
+}
+.logo-2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic2.png);
+}
+.logo-3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic3.png);
+}
+.logo-4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic4.png);
+}
+.logo-5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic5.png);
+}
+.logo-6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic6.png);
+}
+.logo-7 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic7.png);
+}
+.logo-8{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic8.png);
+}
+.logo-9 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic9.png);
+}
+.logo-10 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(/tab1/asset/img/pic10.png);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+#assesing {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #535353;
+}
+.btn {
+    width: 219px;
+    height: 52px;
+    background: #0263AC;
+    border-radius: 8px; 
+    
+}
+.btn:hover{
+    scale: 1.05;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.btn span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right: 8%;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (min-width: 1024px) {
+    body {
+        width: 986px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    body {
+        width: 684px;
+        margin-left: auto;
+        margin-right: auto;
+    };
+    .line {
+        display: none;
+    }
+    .logo-1, .logo-2, .logo-3, .logo-4, .logo-5, .logo-6, .logo-7, .logo-8, .logo-9, .logo-10{
+        margin-bottom: 2.8rem;
+    }
+    .logo-10 {
+        display: block;
+    }
+
+}
+
+@media (max-width:767px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .logo-header a {
+        margin-left: 10%;
+    }
+    header h1, h2 {
+        scale: 0.8;
+    }
+    address {
+        display: none;
+    }
+    .line {
+        display: none;
+    }
+    .logo-10 {
+        display: block;
+    }
+    #assesing {
+        display: none;
+    }
+    footer {
+        justify-content: center;
+    }
+    footer a {
+        text-decoration: none;
+    }
+    .btn {
+        width: 130px;
+        height: 40px;
+    }
+    .btn span {
+        font-weight: 300; 
+    }
+    .btn img {
+        display: none;
+    }
+
+}
