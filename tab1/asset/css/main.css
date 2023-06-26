@@ -33,12 +33,24 @@ header h2 {
     display: flex;
     margin-bottom: 3rem;
 }
-.line-line {
+.line-blue, .line-gray {
     width: 300px;
     height: 4px;
-    background: #D9D9D9;
     border-radius: 4px;
     margin: 0 2px;
+    align-self: center;
+}
+.line-blue {
+    background: #0263AC;
+}
+.line-gray {
+    background: #D9D9D9;
+}
+.cricle-item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #D9D9D9;
     align-self: center;
 }
 .logo-1, .logo-2, .logo-3, .logo-4, .logo-5, .logo-6, .logo-7, .logo-8, .logo-9, .logo-10{
